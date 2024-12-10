@@ -1,0 +1,26 @@
+{
+    "personalDetails": {
+      "name": "Sandip Kalsait",
+      "age": 24,
+      "profession": "Software Engineer",
+      "location": "Pune, Maharashtra",
+      "aboutMe": "A passionate individual who loves to explore new places and cultures.",
+      "family": {
+        "father": "Navnath Kalsait",
+        "mother": "Laxmi Kalsait",
+        "siblings": "One younger sister, studying Pune."
+      },
+      "interests": ["Traveling", "Cooking", "Reading"],
+      "values": "Believes in family values, mutual respect, and love.",
+      "lookingFor": "A partner who is kind, supportive, and shares similar values."
+    },
+    "images": {
+      "primary": "https://randomuser.me/api/portraits/men/75.jpg",
+      "others": [
+        "https://randomuser.me/api/portraits/men/1.jpg",
+        "https://randomuser.me/api/portraits/men/2.jpg",
+        "https://randomuser.me/api/portraits/men/3.jpg"
+      ]
+    }
+  }
+  

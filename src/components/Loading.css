@@ -1,0 +1,9 @@
+/* src/components/Loading.css */
+.loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height to center the loader */
+    background-color: #f0f8ff; /* Optional background color */
+  }
+  

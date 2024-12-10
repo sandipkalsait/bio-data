@@ -1,0 +1,76 @@
+body {
+    background-color: #fff0f5; /* Soft background color */
+    font-family: Arial, sans-serif;
+  }
+  
+  .wedding-layout {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+  }
+  
+  .left-side, .right-side {
+    width: 30%; /* Width for the individual sections */
+    text-align: center;
+  }
+  
+  .middle-section {
+    width: 40%; /* Width for the middle section */
+    text-align: center;
+  }
+  
+  .couple {
+    position: relative;
+    margin: 20px 0;
+  }
+  
+  .head {
+    width: 50px;
+    height: 50px;
+    background-color: #c69c6d; /* Skin tone */
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  
+  .body {
+    width: 30px;
+    height: 70px;
+    background-color: #6c757d; /* Body color */
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  
+  .flower {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    width: 60px;
+    height: 60px;
+    background-color: #ff69b4; /* Flower color */
+    border-radius: 50%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    clip-path: polygon(50% 0%, 61% 38%, 100% 38%, 68% 61%, 79% 100%, 50% 76%, 21% 100%, 32% 61%, 0% 38%, 39% 38%);
+  }
+  
+  .left-side .couple .flower {
+    left: -30px; /* Position flower to the left */
+  }
+  
+  .right-side .couple .flower {
+    left: 30px; /* Position flower to the right */
+  }
+  
+  .title {
+    font-size: 2em;
+    color: #c65d29; /* Title color */
+    margin: 20px 0;
+  }
+  
+  .description {
+    color: #555; /* Description color */
+  }
+  

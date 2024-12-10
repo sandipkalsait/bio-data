@@ -1,0 +1,48 @@
+.personal-details {
+    background-color: #f0f8ff; /* Light Alice Blue background */
+    padding: 30px; /* Increased padding for better spacing */
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Deeper shadow for depth */
+    width: 80%;
+    max-width: 800px; /* Limit the maximum width */
+    margin: 30px auto; /* Center the box with auto margins */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+  }
+  
+  .personal-details:hover {
+    transform: scale(1.02); /* Slightly enlarge on hover */
+  }
+  
+  .personal-details h2 {
+    margin-bottom: 15px;
+    color: #342e8b; /* Sea Green for the heading */
+    font-family: 'Georgia', serif; /* Elegant font */
+    font-size: 28px; /* Larger font size for headings */
+    border-bottom: 2px solid #2e8b57; /* Underline effect */
+    padding-bottom: 10px; /* Space between heading and content */
+  }
+  
+  .personal-details p,
+  .personal-details ul {
+    margin-bottom: 15px; /* More spacing between paragraphs and lists */
+    line-height: 1.6; /* Improved line height for readability */
+  }
+  
+  .personal-details ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  .personal-details strong {
+    color: #b22222; /* Firebrick color for strong text */
+    font-weight: bold; /* Ensure strong text is bold */
+  }
+  
+  .personal-details div {
+    margin-bottom: 20px; /* Extra spacing for sections */
+    padding: 10px; /* Padding for inner divs */
+    border-left: 4px solid #2e8b57; /* Decorative border on the left */
+    background-color: #71a7ff77; /* White background for sections */
+    border-radius: 5px; /* Slightly rounded corners */
+  }
+  
